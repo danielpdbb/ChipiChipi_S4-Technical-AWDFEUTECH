@@ -47,3 +47,65 @@ body {
     background-color: #D22E5E;
     border-color: #FFFFFF;
   }
+
+/* krisziah */
+
+  /* Navbar */
+  .navbar {
+    background-color: #F8DCE8;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Gilda Display", serif;
+    font-style: oblique;
+    color: #D22E5E;
+    margin-left: 30px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 1rem;
+    color: #D22E5E;
+  }
+
+  
+  /* Flower Cards */
+  
+  .flower-card {
+    background-color: #FCEFF7;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+
+  .flower-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .container1 .flower-card h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  .container h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #D22E5E;
+  }
+
+  .flower-card p {
+    margin-bottom: 1.5rem;
+    color: #D22E5E;
+  }
+
+  .flower-card .btn-primary {
+    margin-top: 1rem;
+    background-color: #D22E5E;
+    border-color: #D22E5E;
+  }
