@@ -1,5 +1,15 @@
 /*lady*/
+let popup = document.getElementById('popup');
+let pinkRosePopup = document.getElementById('pinkRosePopup');
+let redRosePopup = document.getElementById('redRosePopup');
 
+function openPopup() {
+  popup.classList.add("open-popup");
+}
+
+function closePopup() {
+  popup.classList.remove("open-popup");
+}
 
 
 /*chania*/
