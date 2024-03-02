@@ -1,0 +1,49 @@
+/*chania*/
+body {
+    font-family: Trattatello;
+  }
+  
+.jumbotron {
+    position: relative;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+
+.jumbotron::before{
+    content: "";
+    background-image: url('https://wallpapers.com/images/hd/flower-bouquet-pictures-dj32jb4ob6qhz0sj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.4;
+}
+
+.jumbotron h1 {
+    position: relative;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-bottom: 1rem;
+    color: #D22E5E;
+  font-family: "Gilda Display", serif;
+}
+
+.jumbotron p {
+    position: relative;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #8d003d;
+  }
+
+.btn {
+  position: relative;
+    background-color: #D22E5E;
+    border-color: #FFFFFF;
+  }
